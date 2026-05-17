@@ -1,7 +1,7 @@
 {
   "name": "FusionSolar Cloud Control",
   "content_in_root": true,
-  "zip_release": true,
+  "filename": "fusionsolar_cloud_control",
   "render_readme": true,
   "homeassistant": "2024.1.0",
   "iot_class": "Cloud Polling"
