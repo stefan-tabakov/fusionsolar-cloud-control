@@ -1,0 +1,28 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "FusionSolar OAuth2 Credentials",
+                "description": "Enter your FusionSolar developer app credentials.",
+                "data": {
+                    "client_id": "Client ID",
+                    "client_secret": "Client Secret",
+                    "region": "Region",
+                    "redirect_uri": "Redirect URI"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid authentication. Please check your credentials.",
+            "cannot_connect": "Failed to connect to FusionSolar API.",
+            "unknown": "An unexpected error occurred."
+        },
+        "abort": {
+            "already_configured": "This account is already configured.",
+            "invalid_token": "Invalid token received from FusionSolar.",
+            "authorize_url_timeout": "Timeout generating authorize URL.",
+            "missing_configuration": "Missing configuration. Please check the documentation.",
+            "no_url_available": "No URL available. Could not determine the authorization URL."
+        }
+    }
+}

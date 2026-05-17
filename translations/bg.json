@@ -1,0 +1,45 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "FusionSolar OAuth2 идентификационни данни",
+                "description": "Въведете данните на вашето FusionSolar приложение.",
+                "data": {
+                    "client_id": "Клиентски идентификатор",
+                    "client_secret": "Клиентска тайна",
+                    "region": "Регион",
+                    "redirect_uri": "URI за пренасочване"
+                }
+            }
+        },
+        "error": {
+            "invalid_auth": "Невалидна автентикация. Моля, проверете данните си.",
+            "cannot_connect": "Неуспешно свързване с FusionSolar API.",
+            "unknown": "Възникна неочаквана грешка."
+        },
+        "abort": {
+            "already_configured": "Този акаунт вече е конфигуриран.",
+            "invalid_token": "Получен е невалиден токен от FusionSolar.",
+            "authorize_url_timeout": "Изтекло време за генериране на URL за оторизация.",
+            "missing_configuration": "Липсваща конфигурация. Моля, проверете документацията.",
+            "no_url_available": "Няма наличен URL. Не може да се определи URL адресът за оторизация."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "plant_daily_energy_sensor": {
+                "name": "Дневна енергия"
+            }
+        },
+        "switch": {
+            "plant_on_off_switch": {
+                "name": "Вкл./Изкл."
+            }
+        },
+        "number": {
+            "plant_power_limit_slider": {
+                "name": "Лимит на мощността"
+            }
+        }
+    }
+}

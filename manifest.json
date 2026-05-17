@@ -1,0 +1,18 @@
+{
+    "domain": "fusionsolar_cloud_control",
+    "name": "FusionSolar Cloud Control",
+    "version": "2.0",
+    "requirements": ["aiohttp"],
+    "dependencies": ["http", "auth"],
+    "codeowners": ["@stefan-tabakov"],
+    "config_flow": true,
+    "iot_class": "Cloud Polling",
+    "issue_tracker": "https://github.com/stefan-tabakov/fusionsolar-cloud-control/issues",
+    "oauth2": [
+        {
+            "name": "FusionSolar API",
+            "domain": "fusionsolar_cloud_control",
+            "version": "1.0"
+        }
+    ]
+}
